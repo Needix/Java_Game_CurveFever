@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JFrame" name="frame_lokal">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="3"/>
+        <Property name="title" type="java.lang.String" value="Curvefever (Lokal)"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="tf_name7" min="-2" pref="84" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="tf_p7l" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="tf_p7r" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="tf_name5" min="-2" pref="84" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="tf_p5l" min="-2" pref="41" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="tf_name3" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                              <Component id="tf_name4" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="tf_p4l" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                                              <Component id="tf_p3l" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="tf_name6" min="-2" pref="84" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="tf_p6l" min="-2" pref="41" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="tf_name1" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                              <Component id="tf_name2" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="tf_p2l" alignment="0" pref="41" max="32767" attributes="0"/>
+                                              <Component id="tf_p1l" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="tf_p2r" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="tf_p1r" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="tf_p6r" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p4r" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p3r" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p5r" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                  <Component id="button_lokal_final" pref="231" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel29" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel26" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel25" alignment="0" pref="145" max="32767" attributes="0"/>
+                                      <Component id="jLabel24" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="jLabel27" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel28" alignment="1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="combobox_pausieren" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="combobox_necSiege" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="combobox_playerSpeed" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="combobox_items" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="combobox_startposition" alignment="1" pref="80" max="32767" attributes="0"/>
+                                      <Component id="combobox_gewinnfoto" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel22" min="-2" pref="128" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          <Component id="jLabel23" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jSeparator7" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_items" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_playerSpeed" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_necSiege" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_pausieren" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_gewinnfoto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="combobox_startposition" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="button_lokal_final" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tf_name1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p1l" alignment="3" max="32767" attributes="0"/>
+                                      <Component id="tf_p1r" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tf_name2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p2l" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p2r" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tf_name3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p3l" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p3r" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tf_name4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p4l" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p4r" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tf_name5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p5l" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p5r" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tf_name6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p6l" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p6r" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tf_name7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p7l" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tf_p7r" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="combobox_items">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="An"/>
+                <StringItem index="1" value="Aus"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p1l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p1lFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p1lKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p1r">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p1rFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p1rKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p2l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p2lFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p2lKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p2r">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p2rFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p2rKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p3l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p3lFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p3lKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p3r">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p3rFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p3rKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p4l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p4lFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p4lKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p4r">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p4rFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p4rKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p5l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p5lFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p5lKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p5r">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p5rFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p5rKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p6l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p6lFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p6lKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p6r">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p6rFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p6rKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator7">
+          <Properties>
+            <Property name="orientation" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel22">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Tastenzuweisung"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel23">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Optionen"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel24">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Items:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel25">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Player Geschwindigkeit:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="combobox_playerSpeed">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="100">
+                <StringItem index="0" value="100"/>
+                <StringItem index="1" value="99"/>
+                <StringItem index="2" value="98"/>
+                <StringItem index="3" value="97"/>
+                <StringItem index="4" value="96"/>
+                <StringItem index="5" value="95"/>
+                <StringItem index="6" value="94"/>
+                <StringItem index="7" value="93"/>
+                <StringItem index="8" value="92"/>
+                <StringItem index="9" value="91"/>
+                <StringItem index="10" value="90"/>
+                <StringItem index="11" value="89"/>
+                <StringItem index="12" value="88"/>
+                <StringItem index="13" value="87"/>
+                <StringItem index="14" value="86"/>
+                <StringItem index="15" value="85"/>
+                <StringItem index="16" value="84"/>
+                <StringItem index="17" value="83"/>
+                <StringItem index="18" value="82"/>
+                <StringItem index="19" value="81"/>
+                <StringItem index="20" value="80"/>
+                <StringItem index="21" value="79"/>
+                <StringItem index="22" value="78"/>
+                <StringItem index="23" value="77"/>
+                <StringItem index="24" value="76"/>
+                <StringItem index="25" value="75"/>
+                <StringItem index="26" value="74"/>
+                <StringItem index="27" value="73"/>
+                <StringItem index="28" value="72"/>
+                <StringItem index="29" value="71"/>
+                <StringItem index="30" value="70"/>
+                <StringItem index="31" value="69"/>
+                <StringItem index="32" value="68"/>
+                <StringItem index="33" value="67"/>
+                <StringItem index="34" value="66"/>
+                <StringItem index="35" value="65"/>
+                <StringItem index="36" value="64"/>
+                <StringItem index="37" value="63"/>
+                <StringItem index="38" value="62"/>
+                <StringItem index="39" value="61"/>
+                <StringItem index="40" value="60"/>
+                <StringItem index="41" value="59"/>
+                <StringItem index="42" value="58"/>
+                <StringItem index="43" value="57"/>
+                <StringItem index="44" value="56"/>
+                <StringItem index="45" value="55"/>
+                <StringItem index="46" value="54"/>
+                <StringItem index="47" value="53"/>
+                <StringItem index="48" value="52"/>
+                <StringItem index="49" value="51"/>
+                <StringItem index="50" value="50"/>
+                <StringItem index="51" value="49"/>
+                <StringItem index="52" value="48"/>
+                <StringItem index="53" value="47"/>
+                <StringItem index="54" value="46"/>
+                <StringItem index="55" value="45"/>
+                <StringItem index="56" value="44"/>
+                <StringItem index="57" value="43"/>
+                <StringItem index="58" value="42"/>
+                <StringItem index="59" value="41"/>
+                <StringItem index="60" value="40"/>
+                <StringItem index="61" value="39"/>
+                <StringItem index="62" value="38"/>
+                <StringItem index="63" value="37"/>
+                <StringItem index="64" value="36"/>
+                <StringItem index="65" value="35"/>
+                <StringItem index="66" value="34"/>
+                <StringItem index="67" value="33"/>
+                <StringItem index="68" value="32"/>
+                <StringItem index="69" value="31"/>
+                <StringItem index="70" value="30"/>
+                <StringItem index="71" value="29"/>
+                <StringItem index="72" value="28"/>
+                <StringItem index="73" value="27"/>
+                <StringItem index="74" value="26"/>
+                <StringItem index="75" value="25"/>
+                <StringItem index="76" value="24"/>
+                <StringItem index="77" value="23"/>
+                <StringItem index="78" value="22"/>
+                <StringItem index="79" value="21"/>
+                <StringItem index="80" value="20"/>
+                <StringItem index="81" value="19"/>
+                <StringItem index="82" value="18"/>
+                <StringItem index="83" value="17"/>
+                <StringItem index="84" value="16"/>
+                <StringItem index="85" value="15"/>
+                <StringItem index="86" value="14"/>
+                <StringItem index="87" value="13"/>
+                <StringItem index="88" value="12"/>
+                <StringItem index="89" value="11"/>
+                <StringItem index="90" value="10"/>
+                <StringItem index="91" value="9"/>
+                <StringItem index="92" value="8"/>
+                <StringItem index="93" value="7"/>
+                <StringItem index="94" value="6"/>
+                <StringItem index="95" value="5"/>
+                <StringItem index="96" value="4"/>
+                <StringItem index="97" value="3"/>
+                <StringItem index="98" value="2"/>
+                <StringItem index="99" value="1"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="20"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel26">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ben&#xf6;tigte Siege:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="combobox_necSiege">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="49">
+                <StringItem index="0" value="50"/>
+                <StringItem index="1" value="49"/>
+                <StringItem index="2" value="48"/>
+                <StringItem index="3" value="47"/>
+                <StringItem index="4" value="46"/>
+                <StringItem index="5" value="45"/>
+                <StringItem index="6" value="44"/>
+                <StringItem index="7" value="43"/>
+                <StringItem index="8" value="42"/>
+                <StringItem index="9" value="41"/>
+                <StringItem index="10" value="40"/>
+                <StringItem index="11" value="39"/>
+                <StringItem index="12" value="38"/>
+                <StringItem index="13" value="37"/>
+                <StringItem index="14" value="36"/>
+                <StringItem index="15" value="35"/>
+                <StringItem index="16" value="34"/>
+                <StringItem index="17" value="32"/>
+                <StringItem index="18" value="31"/>
+                <StringItem index="19" value="30"/>
+                <StringItem index="20" value="29"/>
+                <StringItem index="21" value="28"/>
+                <StringItem index="22" value="27"/>
+                <StringItem index="23" value="26"/>
+                <StringItem index="24" value="25"/>
+                <StringItem index="25" value="24"/>
+                <StringItem index="26" value="23"/>
+                <StringItem index="27" value="22"/>
+                <StringItem index="28" value="21"/>
+                <StringItem index="29" value="20"/>
+                <StringItem index="30" value="19"/>
+                <StringItem index="31" value="18"/>
+                <StringItem index="32" value="17"/>
+                <StringItem index="33" value="16"/>
+                <StringItem index="34" value="15"/>
+                <StringItem index="35" value="14"/>
+                <StringItem index="36" value="13"/>
+                <StringItem index="37" value="12"/>
+                <StringItem index="38" value="11"/>
+                <StringItem index="39" value="10"/>
+                <StringItem index="40" value="9"/>
+                <StringItem index="41" value="8"/>
+                <StringItem index="42" value="7"/>
+                <StringItem index="43" value="6"/>
+                <StringItem index="44" value="5"/>
+                <StringItem index="45" value="4"/>
+                <StringItem index="46" value="3"/>
+                <StringItem index="47" value="2"/>
+                <StringItem index="48" value="1"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel27">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pausieren m&#xf6;glich?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="combobox_pausieren">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Ja"/>
+                <StringItem index="1" value="Nein"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="button_lokal_final">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Starte lokales Spiel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_lokal_finalActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel28">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gewinnfoto erstellen?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="combobox_gewinnfoto">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Ja"/>
+                <StringItem index="1" value="Nein"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_name1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="colors.get(0)" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spieler 1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_name1FocusGained"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_name2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="colors.get(1)" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spieler 2"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_name2FocusGained"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_name3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="colors.get(2)" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spieler 3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_name3FocusGained"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_name4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="colors.get(3)" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spieler 4"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_name4FocusGained"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_name5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="colors.get(4)" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spieler 5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_name5FocusGained"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_name6">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="colors.get(5)" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spieler 6"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_name6FocusGained"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_name7">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="colors.get(6)" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Spieler 7"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_name7FocusGained"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p7l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p7lFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p7lKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tf_p7r">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="tf_p7rFocusGained"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tf_p7rKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel29">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Spieler Startposition:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="combobox_startposition">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Normal"/>
+                <StringItem index="1" value="Random"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="frame_erstelleServer">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="2"/>
+        <Property name="title" type="java.lang.String" value="Curvefever (Server erstellen)"/>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="frame_erstelleServerWindowClosing"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="160" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel3" max="32767" attributes="0"/>
+                              <Component id="jLabel4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel20" max="32767" attributes="0"/>
+                              <Component id="jLabel21" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="erstelleServer_combobox_items" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="erstelleServer_combobox_playerSpeed" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="erstelleServer_combobox_necSiege" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="erstelleServer_combobox_pausieren" min="-2" pref="80" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="erstelleServer_combobox_spielerPositionen" max="32767" attributes="0"/>
+                                      <Component id="erstelleServer_combobox_gewinnfoto" max="32767" attributes="0"/>
+                                      <Component id="erstelleServer_combobox_anzahlSpieler" pref="80" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="erstelleServer_b_start" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="erstelleServer_tf_servername" max="32767" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="erstelleServer_tf_port" min="-2" pref="70" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel11" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="erstelleServer_toggleb_links" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="erstelleServer_toggleb_rechts" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="erstelleServer_button_joinServer" min="-2" pref="192" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel10" pref="68" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="erstelleServer_tf_spielername" min="-2" pref="380" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="erstelleServer_tf_port" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="erstelleServer_tf_servername" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="erstelleServer_combobox_items" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="erstelleServer_combobox_playerSpeed" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="erstelleServer_combobox_necSiege" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="erstelleServer_combobox_pausieren" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="erstelleServer_combobox_anzahlSpieler" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="erstelleServer_combobox_gewinnfoto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="erstelleServer_combobox_spielerPositionen" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="erstelleServer_tf_spielername" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="erstelleServer_toggleb_links" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="erstelleServer_toggleb_rechts" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="erstelleServer_button_joinServer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="erstelleServer_b_start" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Player Geschwindigkeit: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="erstelleServer_combobox_playerSpeed">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="100">
+                <StringItem index="0" value="100"/>
+                <StringItem index="1" value="99"/>
+                <StringItem index="2" value="98"/>
+                <StringItem index="3" value="97"/>
+                <StringItem index="4" value="96"/>
+                <StringItem index="5" value="95"/>
+                <StringItem index="6" value="94"/>
+                <StringItem index="7" value="93"/>
+                <StringItem index="8" value="92"/>
+                <StringItem index="9" value="91"/>
+                <StringItem index="10" value="90"/>
+                <StringItem index="11" value="89"/>
+                <StringItem index="12" value="88"/>
+                <StringItem index="13" value="87"/>
+                <StringItem index="14" value="86"/>
+                <StringItem index="15" value="85"/>
+                <StringItem index="16" value="84"/>
+                <StringItem index="17" value="83"/>
+                <StringItem index="18" value="82"/>
+                <StringItem index="19" value="81"/>
+                <StringItem index="20" value="80"/>
+                <StringItem index="21" value="79"/>
+                <StringItem index="22" value="78"/>
+                <StringItem index="23" value="77"/>
+                <StringItem index="24" value="76"/>
+                <StringItem index="25" value="75"/>
+                <StringItem index="26" value="74"/>
+                <StringItem index="27" value="73"/>
+                <StringItem index="28" value="72"/>
+                <StringItem index="29" value="71"/>
+                <StringItem index="30" value="70"/>
+                <StringItem index="31" value="69"/>
+                <StringItem index="32" value="68"/>
+                <StringItem index="33" value="67"/>
+                <StringItem index="34" value="66"/>
+                <StringItem index="35" value="65"/>
+                <StringItem index="36" value="64"/>
+                <StringItem index="37" value="63"/>
+                <StringItem index="38" value="62"/>
+                <StringItem index="39" value="61"/>
+                <StringItem index="40" value="60"/>
+                <StringItem index="41" value="59"/>
+                <StringItem index="42" value="58"/>
+                <StringItem index="43" value="57"/>
+                <StringItem index="44" value="56"/>
+                <StringItem index="45" value="55"/>
+                <StringItem index="46" value="54"/>
+                <StringItem index="47" value="53"/>
+                <StringItem index="48" value="52"/>
+                <StringItem index="49" value="51"/>
+                <StringItem index="50" value="50"/>
+                <StringItem index="51" value="49"/>
+                <StringItem index="52" value="48"/>
+                <StringItem index="53" value="47"/>
+                <StringItem index="54" value="46"/>
+                <StringItem index="55" value="45"/>
+                <StringItem index="56" value="44"/>
+                <StringItem index="57" value="43"/>
+                <StringItem index="58" value="42"/>
+                <StringItem index="59" value="41"/>
+                <StringItem index="60" value="40"/>
+                <StringItem index="61" value="39"/>
+                <StringItem index="62" value="38"/>
+                <StringItem index="63" value="37"/>
+                <StringItem index="64" value="36"/>
+                <StringItem index="65" value="35"/>
+                <StringItem index="66" value="34"/>
+                <StringItem index="67" value="33"/>
+                <StringItem index="68" value="32"/>
+                <StringItem index="69" value="31"/>
+                <StringItem index="70" value="30"/>
+                <StringItem index="71" value="29"/>
+                <StringItem index="72" value="28"/>
+                <StringItem index="73" value="27"/>
+                <StringItem index="74" value="26"/>
+                <StringItem index="75" value="25"/>
+                <StringItem index="76" value="24"/>
+                <StringItem index="77" value="23"/>
+                <StringItem index="78" value="22"/>
+                <StringItem index="79" value="21"/>
+                <StringItem index="80" value="20"/>
+                <StringItem index="81" value="19"/>
+                <StringItem index="82" value="18"/>
+                <StringItem index="83" value="17"/>
+                <StringItem index="84" value="16"/>
+                <StringItem index="85" value="15"/>
+                <StringItem index="86" value="14"/>
+                <StringItem index="87" value="13"/>
+                <StringItem index="88" value="12"/>
+                <StringItem index="89" value="11"/>
+                <StringItem index="90" value="10"/>
+                <StringItem index="91" value="9"/>
+                <StringItem index="92" value="8"/>
+                <StringItem index="93" value="7"/>
+                <StringItem index="94" value="6"/>
+                <StringItem index="95" value="5"/>
+                <StringItem index="96" value="4"/>
+                <StringItem index="97" value="3"/>
+                <StringItem index="98" value="2"/>
+                <StringItem index="99" value="1"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="20"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ben&#xf6;tigte Siege zum Gesamtsieg: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="erstelleServer_combobox_necSiege">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="49">
+                <StringItem index="0" value="50"/>
+                <StringItem index="1" value="49"/>
+                <StringItem index="2" value="48"/>
+                <StringItem index="3" value="47"/>
+                <StringItem index="4" value="46"/>
+                <StringItem index="5" value="45"/>
+                <StringItem index="6" value="44"/>
+                <StringItem index="7" value="43"/>
+                <StringItem index="8" value="42"/>
+                <StringItem index="9" value="41"/>
+                <StringItem index="10" value="40"/>
+                <StringItem index="11" value="39"/>
+                <StringItem index="12" value="38"/>
+                <StringItem index="13" value="37"/>
+                <StringItem index="14" value="36"/>
+                <StringItem index="15" value="35"/>
+                <StringItem index="16" value="34"/>
+                <StringItem index="17" value="32"/>
+                <StringItem index="18" value="31"/>
+                <StringItem index="19" value="30"/>
+                <StringItem index="20" value="29"/>
+                <StringItem index="21" value="28"/>
+                <StringItem index="22" value="27"/>
+                <StringItem index="23" value="26"/>
+                <StringItem index="24" value="25"/>
+                <StringItem index="25" value="24"/>
+                <StringItem index="26" value="23"/>
+                <StringItem index="27" value="22"/>
+                <StringItem index="28" value="21"/>
+                <StringItem index="29" value="20"/>
+                <StringItem index="30" value="19"/>
+                <StringItem index="31" value="18"/>
+                <StringItem index="32" value="17"/>
+                <StringItem index="33" value="16"/>
+                <StringItem index="34" value="15"/>
+                <StringItem index="35" value="14"/>
+                <StringItem index="36" value="13"/>
+                <StringItem index="37" value="12"/>
+                <StringItem index="38" value="11"/>
+                <StringItem index="39" value="10"/>
+                <StringItem index="40" value="9"/>
+                <StringItem index="41" value="8"/>
+                <StringItem index="42" value="7"/>
+                <StringItem index="43" value="6"/>
+                <StringItem index="44" value="5"/>
+                <StringItem index="45" value="4"/>
+                <StringItem index="46" value="3"/>
+                <StringItem index="47" value="2"/>
+                <StringItem index="48" value="1"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wer darf pausieren?:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="erstelleServer_combobox_pausieren">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Jeder"/>
+                <StringItem index="1" value="Server"/>
+                <StringItem index="2" value="Niemand"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Maximale Anzahl Spieler: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="erstelleServer_combobox_anzahlSpieler">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="7">
+                <StringItem index="0" value="2"/>
+                <StringItem index="1" value="3"/>
+                <StringItem index="2" value="4"/>
+                <StringItem index="3" value="5"/>
+                <StringItem index="4" value="6"/>
+                <StringItem index="5" value="7"/>
+                <StringItem index="6" value="8"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Items:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="erstelleServer_combobox_items">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Aus"/>
+                <StringItem index="1" value="An"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="erstelleServer_button_joinServer">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Erstelle Server"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="erstelleServer_button_joinServerActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="erstelleServer_tf_port">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="28960"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator4">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Port: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name des Servers:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="erstelleServer_tf_servername">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CurveFever Server"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="erstelleServer_list_player">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dlm_spielerListeS" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JSeparator" name="jSeparator5">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Spielername:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="erstelleServer_tf_spielername">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Host"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Steuerung: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="erstelleServer_toggleb_links">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="erstelleServer_toggleb_linksActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="erstelleServer_toggleb_rechts">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="erstelleServer_toggleb_rechtsActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="erstelleServer_b_start">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Start"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="erstelleServer_b_startActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gewinnfoto:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="erstelleServer_combobox_gewinnfoto">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Ja"/>
+                <StringItem index="1" value="Nein"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Spieler Positionen:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="erstelleServer_combobox_spielerPositionen">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Normal"/>
+                <StringItem index="1" value="Random"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="frame_serverBeitreten">
+      <Properties>
+        <Property name="defaultCloseOperation" type="int" value="2"/>
+        <Property name="title" type="java.lang.String" value="Curvefever (Server beitreten)"/>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="frame_serverBeitretenWindowClosing"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane2" min="-2" pref="160" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel14" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" pref="184" max="32767" attributes="0"/>
+                              <Component id="jLabel12" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel13" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabel31" max="32767" attributes="0"/>
+                              <Component id="jLabel32" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="joinServer_combobox_necWins" alignment="0" max="32767" attributes="0"/>
+                              <Component id="joinServer_combobox_pausieren" alignment="0" max="32767" attributes="0"/>
+                              <Component id="joinServer_combobox_anzahlSpieler" alignment="0" max="32767" attributes="0"/>
+                              <Component id="joinServer_combobox_items" alignment="0" max="32767" attributes="0"/>
+                              <Component id="joinServer_combobox_gewinnfoto" alignment="0" max="32767" attributes="0"/>
+                              <Component id="joinServer_combobox_playerSpeed" max="32767" attributes="0"/>
+                              <Component id="joinServer_combobox_spielerPositionen" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jSeparator8" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jSeparator6" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="joinServer_tf_serverip" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="joinServer_tf_port" min="-2" pref="56" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="joinServer_button_joinServer" min="-2" pref="140" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel17" pref="68" max="32767" attributes="0"/>
+                              <Component id="jLabel18" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="joinServer_toggleb_links" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="joinServer_toggleb_rechts" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="joinServer_b_ready" min="-2" pref="171" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="joinServer_tf_spielername" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="joinServer_tf_port" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="joinServer_tf_serverip" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="joinServer_button_joinServer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="joinServer_combobox_items" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="joinServer_combobox_playerSpeed" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="joinServer_combobox_necWins" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="joinServer_combobox_pausieren" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="joinServer_combobox_anzahlSpieler" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="joinServer_combobox_gewinnfoto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="joinServer_combobox_spielerPositionen" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="joinServer_tf_spielername" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="joinServer_toggleb_links" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="joinServer_toggleb_rechts" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="joinServer_b_ready" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Player Geschwindigkeit: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="joinServer_combobox_playerSpeed">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="100">
+                <StringItem index="0" value="100"/>
+                <StringItem index="1" value="99"/>
+                <StringItem index="2" value="98"/>
+                <StringItem index="3" value="97"/>
+                <StringItem index="4" value="96"/>
+                <StringItem index="5" value="95"/>
+                <StringItem index="6" value="94"/>
+                <StringItem index="7" value="93"/>
+                <StringItem index="8" value="92"/>
+                <StringItem index="9" value="91"/>
+                <StringItem index="10" value="90"/>
+                <StringItem index="11" value="89"/>
+                <StringItem index="12" value="88"/>
+                <StringItem index="13" value="87"/>
+                <StringItem index="14" value="86"/>
+                <StringItem index="15" value="85"/>
+                <StringItem index="16" value="84"/>
+                <StringItem index="17" value="83"/>
+                <StringItem index="18" value="82"/>
+                <StringItem index="19" value="81"/>
+                <StringItem index="20" value="80"/>
+                <StringItem index="21" value="79"/>
+                <StringItem index="22" value="78"/>
+                <StringItem index="23" value="77"/>
+                <StringItem index="24" value="76"/>
+                <StringItem index="25" value="75"/>
+                <StringItem index="26" value="74"/>
+                <StringItem index="27" value="73"/>
+                <StringItem index="28" value="72"/>
+                <StringItem index="29" value="71"/>
+                <StringItem index="30" value="70"/>
+                <StringItem index="31" value="69"/>
+                <StringItem index="32" value="68"/>
+                <StringItem index="33" value="67"/>
+                <StringItem index="34" value="66"/>
+                <StringItem index="35" value="65"/>
+                <StringItem index="36" value="64"/>
+                <StringItem index="37" value="63"/>
+                <StringItem index="38" value="62"/>
+                <StringItem index="39" value="61"/>
+                <StringItem index="40" value="60"/>
+                <StringItem index="41" value="59"/>
+                <StringItem index="42" value="58"/>
+                <StringItem index="43" value="57"/>
+                <StringItem index="44" value="56"/>
+                <StringItem index="45" value="55"/>
+                <StringItem index="46" value="54"/>
+                <StringItem index="47" value="53"/>
+                <StringItem index="48" value="52"/>
+                <StringItem index="49" value="51"/>
+                <StringItem index="50" value="50"/>
+                <StringItem index="51" value="49"/>
+                <StringItem index="52" value="48"/>
+                <StringItem index="53" value="47"/>
+                <StringItem index="54" value="46"/>
+                <StringItem index="55" value="45"/>
+                <StringItem index="56" value="44"/>
+                <StringItem index="57" value="43"/>
+                <StringItem index="58" value="42"/>
+                <StringItem index="59" value="41"/>
+                <StringItem index="60" value="40"/>
+                <StringItem index="61" value="39"/>
+                <StringItem index="62" value="38"/>
+                <StringItem index="63" value="37"/>
+                <StringItem index="64" value="36"/>
+                <StringItem index="65" value="35"/>
+                <StringItem index="66" value="34"/>
+                <StringItem index="67" value="33"/>
+                <StringItem index="68" value="32"/>
+                <StringItem index="69" value="31"/>
+                <StringItem index="70" value="30"/>
+                <StringItem index="71" value="29"/>
+                <StringItem index="72" value="28"/>
+                <StringItem index="73" value="27"/>
+                <StringItem index="74" value="26"/>
+                <StringItem index="75" value="25"/>
+                <StringItem index="76" value="24"/>
+                <StringItem index="77" value="23"/>
+                <StringItem index="78" value="22"/>
+                <StringItem index="79" value="21"/>
+                <StringItem index="80" value="20"/>
+                <StringItem index="81" value="19"/>
+                <StringItem index="82" value="18"/>
+                <StringItem index="83" value="17"/>
+                <StringItem index="84" value="16"/>
+                <StringItem index="85" value="15"/>
+                <StringItem index="86" value="14"/>
+                <StringItem index="87" value="13"/>
+                <StringItem index="88" value="12"/>
+                <StringItem index="89" value="11"/>
+                <StringItem index="90" value="10"/>
+                <StringItem index="91" value="9"/>
+                <StringItem index="92" value="8"/>
+                <StringItem index="93" value="7"/>
+                <StringItem index="94" value="6"/>
+                <StringItem index="95" value="5"/>
+                <StringItem index="96" value="4"/>
+                <StringItem index="97" value="3"/>
+                <StringItem index="98" value="2"/>
+                <StringItem index="99" value="1"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="40"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ben&#xf6;tigte Siege zum Gesamtsieg: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="joinServer_combobox_necWins">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="49">
+                <StringItem index="0" value="50"/>
+                <StringItem index="1" value="49"/>
+                <StringItem index="2" value="48"/>
+                <StringItem index="3" value="47"/>
+                <StringItem index="4" value="46"/>
+                <StringItem index="5" value="45"/>
+                <StringItem index="6" value="44"/>
+                <StringItem index="7" value="43"/>
+                <StringItem index="8" value="42"/>
+                <StringItem index="9" value="41"/>
+                <StringItem index="10" value="40"/>
+                <StringItem index="11" value="39"/>
+                <StringItem index="12" value="38"/>
+                <StringItem index="13" value="37"/>
+                <StringItem index="14" value="36"/>
+                <StringItem index="15" value="35"/>
+                <StringItem index="16" value="34"/>
+                <StringItem index="17" value="32"/>
+                <StringItem index="18" value="31"/>
+                <StringItem index="19" value="30"/>
+                <StringItem index="20" value="29"/>
+                <StringItem index="21" value="28"/>
+                <StringItem index="22" value="27"/>
+                <StringItem index="23" value="26"/>
+                <StringItem index="24" value="25"/>
+                <StringItem index="25" value="24"/>
+                <StringItem index="26" value="23"/>
+                <StringItem index="27" value="22"/>
+                <StringItem index="28" value="21"/>
+                <StringItem index="29" value="20"/>
+                <StringItem index="30" value="19"/>
+                <StringItem index="31" value="18"/>
+                <StringItem index="32" value="17"/>
+                <StringItem index="33" value="16"/>
+                <StringItem index="34" value="15"/>
+                <StringItem index="35" value="14"/>
+                <StringItem index="36" value="13"/>
+                <StringItem index="37" value="12"/>
+                <StringItem index="38" value="11"/>
+                <StringItem index="39" value="10"/>
+                <StringItem index="40" value="9"/>
+                <StringItem index="41" value="8"/>
+                <StringItem index="42" value="7"/>
+                <StringItem index="43" value="6"/>
+                <StringItem index="44" value="5"/>
+                <StringItem index="45" value="4"/>
+                <StringItem index="46" value="3"/>
+                <StringItem index="47" value="2"/>
+                <StringItem index="48" value="1"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="10"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Wer darf pausieren?:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="joinServer_combobox_pausieren">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Server"/>
+                <StringItem index="1" value="Niemand"/>
+              </StringArray>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Maximale Anzahl Spieler: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="joinServer_combobox_anzahlSpieler">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="7">
+                <StringItem index="0" value="2"/>
+                <StringItem index="1" value="3"/>
+                <StringItem index="2" value="4"/>
+                <StringItem index="3" value="5"/>
+                <StringItem index="4" value="6"/>
+                <StringItem index="5" value="7"/>
+                <StringItem index="6" value="8"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="6"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Items:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="joinServer_combobox_items">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Aus"/>
+                <StringItem index="1" value="An"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="1"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="joinServer_button_joinServer">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Trete Server bei"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="joinServer_button_joinServerActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="joinServer_tf_port">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="28960"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator6">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Port: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="IP des Servers:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="joinServer_tf_serverip">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="127.0.0.1"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="joinServer_list_player">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="dlm_spielerListeC" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JSeparator" name="jSeparator8">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Spielername:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="joinServer_tf_spielername">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Steuerung: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="joinServer_toggleb_links">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Links"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="joinServer_toggleb_linksActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="joinServer_toggleb_rechts">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rechts"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="joinServer_toggleb_rechtsActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="joinServer_b_ready">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fertig!"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="joinServer_b_readyActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel31">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gewinnfoto:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="joinServer_combobox_gewinnfoto">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Ja"/>
+                <StringItem index="1" value="Nein"/>
+              </StringArray>
+            </Property>
+            <Property name="selectedIndex" type="int" value="1"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Spieler Positionen:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="joinServer_combobox_spielerPositionen">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Normal"/>
+                <StringItem index="1" value="Random"/>
+              </StringArray>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="dialog_error">
+      <Properties>
+        <Property name="modal" type="boolean" value="true"/>
+        <Property name="resizable" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jScrollPane3" pref="599" max="32767" attributes="0"/>
+                      <Component id="errordialog_title" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="errordialog_title" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="errordialog_title">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Title"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="errordialog_message">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="10"/>
+                <Property name="text" type="java.lang.String" value="Nutzername wird schon benutzt oder ein Verbindungsfehler ist aufgetreten. Bitte einen anderen Nutzernamen waehlen und erneut versuchen!"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Programm"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="button_menu_lokal">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Starte lokales Spiel"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_menu_lokalActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenu3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Internet"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="button_menu_erstelleServer">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Create Server"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_menu_erstelleServerActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="button_menu_serverBeitreten">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Join Server"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_menu_serverBeitretenActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator1">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="button_menu_closeProgramm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Close"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_menu_closeProgrammActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Curvefever (Hauptmenu)"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="0" red="0" type="rgb"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel19" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                  <Component id="button_lokal" alignment="0" pref="248" max="32767" attributes="0"/>
+                  <Component id="jLabel30" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="button_serverBeitreten" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="button_erstelleServer" min="-2" pref="115" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="button_lokal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="button_erstelleServer" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="button_serverBeitreten" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Internet"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="button_lokal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Starte lokales Spiel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_lokalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="button_erstelleServer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Erstelle Server"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_erstelleServerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="button_serverBeitreten">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Server beitreten"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_serverBeitretenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel30">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Lokal"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

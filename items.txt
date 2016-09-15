@@ -1,0 +1,13 @@
+SlowDown:1:15:sich selber:green_slow.png
+SlowDown:-1:15:die anderen:red_slow.png
+SpeedUp:-1:15:sich selber:green_speed.png
+SpeedUp:1:15:die anderen:red_speed.png
+Square:-1:15:sich selber:green_sharp.png
+Square:1:15:die anderen:red_sharp.png
+Bigger:1:15:die anderen:red_fat.png
+Smaller:1:15:sich selber:green_thin.png
+NoControl:1:2:die anderen:red_x.png
+ReverseControls:1:7:die anderen:red_reverse.png
+Reset:0:1:alle:blue_eraser.png
+BlackScreen:0:3:alle:blue_darkness.png
+ColorChange:0:1:alle:blue_colorchange.png
